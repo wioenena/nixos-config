@@ -26,7 +26,7 @@
             "org.gnome.Settings.desktop"
             "org.gnome.Nautilus.desktop"
             "org.gnome.Software.desktop"
-            "zen-beta.desktop"
+            "app.zen_browser.zen.desktop"
             "org.gnome.Ptyxis.desktop"
             "dev.zed.Zed.desktop"
             "code.desktop"
