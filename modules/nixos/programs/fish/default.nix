@@ -1,0 +1,23 @@
+{ pkgs, ... }:
+{
+  programs.fish = {
+    enable = true;
+    generateCompletions = true;
+    interactiveShellInit = ''
+      echo "Welcome $(whoami)!"
+      set fish_greeting
+    '';
+    shellAliases = {
+      man = "batman";
+      ls = "eza --all --long --icons always --group-directories-first";
+      cd = "z";
+      zed = "zeditor";
+    };
+  };
+
+  environment.systemPackages = with pkgs.fishPlugins; [
+    done
+    spark
+    autopair
+  ];
+}
