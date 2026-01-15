@@ -8,11 +8,6 @@
       url = "github:nix-community/home-manager/release-25.11";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    zen-browser = {
-      url = "github:0xc000022070/zen-browser-flake";
-      inputs.nixpkgs.follows = "nixpkgs";
-      inputs.home-manager.follows = "home-manager";
-    };
     flake-utils = {
       url = "github:numtide/flake-utils";
     };
@@ -64,9 +59,7 @@
             home-manager.useUserPackages = true;
             home-manager.users.wioenena = ./modules/home-manager/wioenena/home.nix;
 
-            home-manager.sharedModules = [
-              inputs.zen-browser.homeModules.default
-            ];
+            home-manager.sharedModules = [];
             home-manager.extraSpecialArgs = { inherit inputs pkgs-unstable; };
           }
           ./hosts/desktop

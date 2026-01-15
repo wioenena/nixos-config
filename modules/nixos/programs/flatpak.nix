@@ -1,7 +1,13 @@
 { pkgs, lib, ... }:
 let
   flatpakApps = [
+    # --- Music ---
     "com.spotify.Client"
+
+    # Browsers
+    "app.zen_browser.zen"
+
+    # --- Multimedia (Video/Audio Players & Editors) ---
     "no.mifi.losslesscut"
 
     # --- Security & Privacy ---
@@ -10,7 +16,7 @@ let
 
   appsString = lib.strings.concatStringsSep " " flatpakApps;
   flatpakExe = lib.getExe pkgs.flatpak;
-  flatpakInstallAppsScript = pkgs.writeShellScriptBin "install-flatpak-apps" ''
+  flatpakInstallAppsScript = pkgs.writeShellScriptBin "wioenena-install-flatpak-apps" ''
     echo "--------------------------------------------------"
     echo "Running Flatpak installation script..."
     echo "--------------------------------------------------"
