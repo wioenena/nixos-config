@@ -156,6 +156,7 @@ in
     heroic
     prismlauncher
     protonplus
+    mangohud
     mangojuice
 
     # --- Productivity & Office ---
