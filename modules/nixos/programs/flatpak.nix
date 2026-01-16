@@ -23,6 +23,7 @@ let
     ${flatpakExe} remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
     ${flatpakExe} install -y --noninteractive flathub ${appsString}
     ${flatpakExe} uninstall --unused
+    ${flatpakExe} --user override --filesystem=/nix/store:ro # For fix theming problems
     echo "--------------------------------------------------"
     echo "Operation completed successfully!"
     echo "--------------------------------------------------"

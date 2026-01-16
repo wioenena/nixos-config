@@ -1,0 +1,12 @@
+{ pkgs, ... }:
+{
+  home.pointerCursor = {
+    enable = true;
+    x11.enable = true;
+    gtk.enable = true;
+    hyprcursor.enable = true;
+    name = "macOS";
+    package = pkgs.apple-cursor;
+    size = 24;
+  };
+}
