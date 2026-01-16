@@ -43,7 +43,7 @@
   swapDevices = [
     {
       device = "/dev/disk/by-label/nixos-swap";
-      priority = 10;
+      priority = 5;
     }
   ];
 
