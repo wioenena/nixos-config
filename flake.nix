@@ -59,7 +59,7 @@
             home-manager.useUserPackages = true;
             home-manager.users.wioenena = ./modules/home-manager/wioenena/home.nix;
 
-            home-manager.sharedModules = [];
+            home-manager.sharedModules = [ ];
             home-manager.extraSpecialArgs = { inherit inputs pkgs-unstable; };
           }
           ./hosts/desktop
