@@ -5,6 +5,7 @@
   "davinci-resolve"
   "steam"
   "steam-unwrapped"
+  "steamcmd"
   "postman"
   "discord"
   "obsidian"
