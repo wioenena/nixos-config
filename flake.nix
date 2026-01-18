@@ -38,6 +38,7 @@
       pkgs-unstable = import inputs.nixpkgs-unstable {
         inherit system;
         overlays = overlays;
+        config.allowUnfreePredicate = allowUnfreePredicate;
       };
     in
     {
