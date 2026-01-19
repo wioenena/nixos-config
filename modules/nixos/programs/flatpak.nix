@@ -12,6 +12,7 @@ let
 
     # --- Security & Privacy ---
     "com.github.tchx84.Flatseal"
+
   ];
 
   appsString = lib.strings.concatStringsSep " " flatpakApps;
