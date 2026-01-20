@@ -25,7 +25,6 @@ in
     bat.extraPackages = with pkgs.bat-extras; [
       batdiff
       batman
-      prettybat
     ];
 
     direnv.enable = true;
@@ -83,69 +82,44 @@ in
     curl
     rsync
     yt-dlp
-    qbittorrent
-
-    # --- Graphics & Design ---
-    gimp
-    pinta
-    upscayl
-    eyedropper
-    curtail
-    switcheroo
-
-    # --- Multimedia (Video/Audio Players & Editors) ---
-    vlc
-    mpv
-    shotcut
-    handbrake
-    kooha
-    mousai
 
     # --- Audio Control & Effects ---
     pavucontrol
-    easyeffects
 
     # --- Wayland Desktop Environment Utilities ---
     wl-clipboard
-    grim
-    slurp
-    playerctl
-
-    # --- For window managers ---
-    dunst
 
     # --- Desktop Environment Utilities ---
-    dconf-editor
     nwg-look
 
     # --- Development & Technical Tools & Editors ---
-    alacritty
     vscode
     zed-editor
     jetbrains-toolbox
     yaak
     gh
-    devtoolbox
-    imhex
     gnome-boxes
-    podman-desktop
-    postman
+    nasm
+    bun
+    gcc
+    clang
+    # dotnet?
+    deno
+    go
+    nodejs
+    uv # Python package and project manager
+    zvm # Zig version manager
 
     # --- Web Browsing ---
     brave
 
     # --- Ricing & Visuals ---
-    feh
     fastfetch
     cava
     clock-rs
 
     # --- Nix & System Management ---
     home-manager
-
-    # --- Communication & Email ---
-    discord
-    thunderbird
 
     # --- Gaming & Compatibility Layers ---
     wineWowPackages.stableFull
@@ -158,16 +132,5 @@ in
     protonplus
     mangohud
     mangojuice
-
-    # --- Productivity & Office ---
-    obsidian
-
-    # --- Security & Privacy ---
-    protonvpn-gui
-    proton-pass
-
-    # --- Flake Inputs (Custom Packages) ---
-    inputs.awww.packages.${system}.awww
-    inputs.matugen.packages.${system}.default
   ];
 }

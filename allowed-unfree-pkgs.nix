@@ -6,7 +6,5 @@
   "steam"
   "steam-unwrapped"
   "steamcmd"
-  "postman"
-  "discord"
-  "obsidian"
+  "ffmpeg-full"
 ]

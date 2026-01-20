@@ -5,7 +5,6 @@
     ./programs
     ./security
     ./virtualisation
-    ./specialisations
     ./audio.nix
     ./boot.nix
     ./console.nix

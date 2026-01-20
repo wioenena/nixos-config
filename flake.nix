@@ -11,13 +11,6 @@
     flake-utils = {
       url = "github:numtide/flake-utils";
     };
-    awww.url = "git+https://codeberg.org/LGFae/awww";
-    elephant.url = "github:abenz1267/elephant";
-    walker = {
-      url = "github:abenz1267/walker";
-      inputs.elephant.follows = "elephant";
-    };
-    matugen.url = "github:/InioX/Matugen/v3.1.0";
   };
 
   outputs =
@@ -53,7 +46,6 @@
             nixpkgs.config.allowUnfreePredicate = allowUnfreePredicate;
           }
 
-          inputs.walker.nixosModules.walker
           home-manager.nixosModules.home-manager
           {
             home-manager.useGlobalPkgs = true;
