@@ -37,7 +37,6 @@
             dash-to-dock.extensionUuid
             gsconnect.extensionUuid
             caffeine.extensionUuid
-            lockkeys-vaina.extensionUuid
             desktop-icons-ng-ding.extensionUuid
             add-to-desktop.extensionUuid
             show-desktop-applet.extensionUuid
@@ -72,7 +71,7 @@
           ];
         };
         "org/gnome/system/location" = {
-          enabled = false;
+          enabled = true;
         };
         "org/gnome/GWeather4" = {
           temperature-unit = "centigrade";
@@ -101,12 +100,6 @@
         };
         "org/gnome/shell/extensions/gsconnect" = {
           enabled = false;
-        };
-        "org/gnome/shell/extensions/lockkeys" = {
-          capslock-notification = "osd";
-          capslock-indicator = "when-active";
-          numlock-notification = "osd";
-          numlock-indicator = "when-active";
         };
         "org/gnome/shell/extensions/ding" = {
           icon-size = "tiny";
