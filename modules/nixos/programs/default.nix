@@ -91,8 +91,10 @@ in
 
     # --- Desktop Environment Utilities ---
     nwg-look
+    gnome-tweaks
 
     # --- Development & Technical Tools & Editors ---
+    ptyxis
     vscode
     zed-editor
     jetbrains-toolbox
@@ -109,6 +111,7 @@ in
     nodejs
     uv # Python package and project manager
     zvm # Zig version manager
+    rustup
 
     # --- Web Browsing ---
     brave

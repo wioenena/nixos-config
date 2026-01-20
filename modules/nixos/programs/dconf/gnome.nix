@@ -57,19 +57,6 @@
         "org/gnome/shell/app-switcher" = {
           current-workspace-only = true;
         };
-        "org/gnome/desktop/input-sources" = {
-          xkb-options = [ "ctrl:nocaps" ];
-          sources = [
-            (lib.gvariant.mkTuple [
-              "xkb"
-              "us"
-            ])
-            (lib.gvariant.mkTuple [
-              "xkb"
-              "tr"
-            ])
-          ];
-        };
         "org/gnome/system/location" = {
           enabled = true;
         };
@@ -103,6 +90,24 @@
         };
         "org/gnome/shell/extensions/ding" = {
           icon-size = "tiny";
+        };
+      };
+    }
+    {
+      lockAll = true;
+      settings = {
+        "org/gnome/desktop/input-sources" = {
+          xkb-options = [ "caps:none" ];
+          sources = [
+            (lib.gvariant.mkTuple [
+              "xkb"
+              "us"
+            ])
+            (lib.gvariant.mkTuple [
+              "xkb"
+              "tr"
+            ])
+          ];
         };
       };
     }

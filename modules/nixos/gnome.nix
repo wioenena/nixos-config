@@ -24,7 +24,7 @@ in
     gnome-settings-daemon.enable = true;
   };
 
-  environment.systemPackages = with pkgs; [ ptyxis ] ++ gnomeExtensions;
+  environment.systemPackages = gnomeExtensions;
 
   # Excluded packages
   environment.gnome.excludePackages = with pkgs; [
