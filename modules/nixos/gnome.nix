@@ -31,6 +31,7 @@ in
     gnome-tour
     gnome-contacts
     gnome-music
+    gnome-console
     decibels
     epiphany
     papers

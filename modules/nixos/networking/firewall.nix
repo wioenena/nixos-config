@@ -13,6 +13,7 @@ in
     backend = "nftables";
     checkReversePath = false;
     allowedTCPPorts = [ ];
+    allowedUDPPorts = [ ];
     allowedTCPPortRanges = [ ] ++ kdeConnectPortRanges;
     allowedUDPPortRanges = [ ] ++ kdeConnectPortRanges;
   };
