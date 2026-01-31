@@ -112,6 +112,7 @@ in
     uv # Python package and project manager
     zvm # Zig version manager
     rustup
+    openjdk
 
     # --- Web Browsing ---
     brave
