@@ -105,7 +105,11 @@ in
     bun
     gcc
     clang
-    # dotnet?
+    (with dotnetCorePackages; combinePackages [
+      sdk_10_0
+      sdk_9_0
+      sdk_8_0
+    ])
     deno
     go
     nodejs
@@ -113,6 +117,8 @@ in
     zvm # Zig version manager
     rustup
     openjdk
+		godot
+		unityhub
 
     # --- Web Browsing ---
     brave

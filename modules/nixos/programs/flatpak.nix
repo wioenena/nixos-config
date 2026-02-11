@@ -11,6 +11,10 @@ let
     "com.github.finefindus.eyedropper"
     "com.github.huluti.Curtail"
     "io.gitlab.adhami3310.Converter"
+		"org.inkscape.Inkscape"
+		"org.kde.krita"
+		"com.github.libresprite.LibreSprite"
+		"org.blender.Blender"
 
     # --- Audio Control & Effects ---
     "com.github.wwmm.easyeffects"
