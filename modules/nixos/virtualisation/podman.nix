@@ -11,8 +11,11 @@
 
   systemd.sockets.podman.wantedBy = lib.mkForce [ ];
 
-  environment.systemPackages = [
-    pkgs.podman-compose
+  environment.systemPackages = with pkgs; [
+    podman-desktop
+    podman-compose
+    kubectl
+    kind
   ];
 
   users.users.wioenena.extraGroups = [ "podman" ];

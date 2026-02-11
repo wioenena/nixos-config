@@ -11,10 +11,10 @@ let
     "com.github.finefindus.eyedropper"
     "com.github.huluti.Curtail"
     "io.gitlab.adhami3310.Converter"
-		"org.inkscape.Inkscape"
-		"org.kde.krita"
-		"com.github.libresprite.LibreSprite"
-		"org.blender.Blender"
+    "org.inkscape.Inkscape"
+    "org.kde.krita"
+    "com.github.libresprite.LibreSprite"
+    "org.blender.Blender"
 
     # --- Audio Control & Effects ---
     "com.github.wwmm.easyeffects"
@@ -25,7 +25,6 @@ let
     # --- Development & Technical Tools & Editors ---
     "me.iepure.devtoolbox"
     "net.werwolv.ImHex"
-    "io.podman_desktop.PodmanDesktop"
     "com.getpostman.Postman"
 
     # --- Communication & Email ---
