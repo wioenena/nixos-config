@@ -7,6 +7,6 @@
   "steam-unwrapped"
   "steamcmd"
   "ffmpeg-full"
-	"unityhub"
-	"corefonts"
+  "unityhub"
+  "corefonts"
 ]

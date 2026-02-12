@@ -92,6 +92,11 @@
         "org/gnome/shell/extensions/ding" = {
           icon-size = "tiny";
         };
+        "org/gnome/shell/extensions/blur-my-shell/applications" = {
+          blur = true;
+          dynamic-opacity = false;
+          whitelist = lib.gvariant.mkArray [ "org.gnome.Ptyxis" ];
+        };
       };
     }
     {
