@@ -100,7 +100,7 @@ in
 
     # --- Development & Technical Tools & Editors ---
     ptyxis
-    vscode
+    pkgs-unstable.vscode
     pkgs-unstable.zed-editor
     jetbrains-toolbox
     yaak
@@ -185,5 +185,8 @@ in
     protonplus
     mangohud
     mangojuice
+
+    # --- Others ---
+    smile
   ];
 }
