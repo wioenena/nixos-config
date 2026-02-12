@@ -67,6 +67,10 @@ in
     psmisc
     dateutils
     stress-ng
+    bandwhich
+
+    # Nix
+    home-manager
 
     # --- Modern CLI Tools (Better Alternatives) ---
     ripgrep
@@ -128,6 +132,9 @@ in
     godot-mono
     unityhub
 
+    # --- Reverse Engineering Tools ---
+    ghidra
+
     # --- Web Browsing ---
     brave
 
@@ -147,6 +154,7 @@ in
     krita
     libresprite
     blender
+    davinci-resolve
 
     # --- Productivity & Office ---
     obsidian
@@ -165,9 +173,6 @@ in
     protonvpn-gui
     proton-pass
     proton-authenticator
-
-    # --- Nix & System Management ---
-    home-manager
 
     # --- Gaming & Compatibility Layers ---
     wineWowPackages.stableFull

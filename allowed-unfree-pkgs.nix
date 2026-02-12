@@ -13,4 +13,5 @@
   "obsidian"
   "discord"
   "proton-authenticator"
+  "ida-free"
 ]
