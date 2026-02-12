@@ -9,4 +9,8 @@
   "ffmpeg-full"
   "unityhub"
   "corefonts"
+  "postman"
+  "obsidian"
+  "discord"
+  "proton-authenticator"
 ]

@@ -6,7 +6,10 @@
       "flakes"
     ];
 
-    settings.trusted-users = [ "@wheel" "wioenena" ];
+    settings.trusted-users = [
+      "@wheel"
+      "wioenena"
+    ];
 
     gc = {
       automatic = true;

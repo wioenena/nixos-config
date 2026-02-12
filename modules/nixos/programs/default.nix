@@ -92,6 +92,7 @@ in
     # --- Desktop Environment Utilities ---
     nwg-look
     gnome-tweaks
+    dconf-editor
 
     # --- Development & Technical Tools & Editors ---
     ptyxis
@@ -101,6 +102,9 @@ in
     yaak
     gh
     gnome-boxes
+    devtoolbox
+    imhex
+    postman
     nasm
     bun
     gcc
@@ -121,6 +125,7 @@ in
     rustup
     openjdk
     godot
+    godot-mono
     unityhub
 
     # --- Web Browsing ---
@@ -130,6 +135,36 @@ in
     fastfetch
     cava
     clock-rs
+
+    # --- Graphics & Design ---
+    gimp
+    pinta
+    upscayl
+    eyedropper
+    switcheroo
+    curtail
+    inkscape
+    krita
+    libresprite
+    blender
+
+    # --- Productivity & Office ---
+    obsidian
+
+    # --- Multimedia (Video/Audio Players & Editors) ---
+    vlc
+    mpv
+    easyeffects
+    kooha
+    mousai
+
+    # --- Communication & Email ---
+    discord
+
+    # --- Security & Privacy ---
+    protonvpn-gui
+    proton-pass
+    proton-authenticator
 
     # --- Nix & System Management ---
     home-manager
