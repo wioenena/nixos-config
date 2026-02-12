@@ -10,6 +10,7 @@ let
     add-to-desktop
     show-desktop-applet
     appindicator
+    blur-my-shell
   ];
 in
 {

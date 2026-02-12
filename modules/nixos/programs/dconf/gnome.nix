@@ -41,6 +41,7 @@
             add-to-desktop.extensionUuid
             show-desktop-applet.extensionUuid
             appindicator.extensionUuid
+            blur-my-shell.extensionUuid
           ];
         };
         "org/gnome/desktop/wm/preferences" = {
