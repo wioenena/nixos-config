@@ -97,6 +97,9 @@
           dynamic-opacity = false;
           whitelist = lib.gvariant.mkArray [ "org.gnome.Ptyxis" ];
         };
+        "org/gnome/shell/extensions/blur-my-shell/panel" = {
+          static-blur = false;
+        };
       };
     }
     {

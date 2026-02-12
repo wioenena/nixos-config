@@ -96,7 +96,7 @@ in
     # --- Development & Technical Tools & Editors ---
     ptyxis
     vscode
-    zed-editor
+    pkgs-unstable.zed-editor
     jetbrains-toolbox
     yaak
     gh
