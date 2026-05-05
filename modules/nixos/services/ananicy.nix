@@ -1,0 +1,4 @@
+{ ... }:
+{
+  services.ananicy.enable = true;
+}

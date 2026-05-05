@@ -3,6 +3,7 @@
   imports = [
     ./networking
     ./programs
+    ./services
     ./security
     ./virtualisation
     ./audio.nix
@@ -16,10 +17,7 @@
     ./packages.nix
     ./time.nix
     ./users.nix
-    ./xdg.nix
     ./zram.nix
-    ./displayManager.nix
-    ./gnome.nix
-    ./themes.nix
+    ./kde.nix
   ];
 }

@@ -16,6 +16,7 @@
     podman-compose
     kubectl
     kind
+    minikube
   ];
 
   users.users.wioenena.extraGroups = [ "podman" ];

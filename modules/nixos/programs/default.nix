@@ -1,5 +1,4 @@
 {
-  inputs,
   pkgs,
   pkgs-unstable,
   ...
@@ -10,14 +9,12 @@ in
 {
   imports = [
     ./fish
-    ./dconf
     ./git.nix
     ./nix-ld.nix
     ./steam.nix
     ./neovim.nix
     ./openssh.nix
     ./flatpak.nix
-    ./gnome-keyring.nix
   ];
 
   programs = {
@@ -42,8 +39,6 @@ in
     zoxide.enable = true;
     zoxide.enableFishIntegration = true;
 
-    fzf.keybindings = true;
-    fzf.fuzzyCompletion = true;
     obs-studio = {
       enable = true;
       plugins = with pkgs; [ obs-studio-plugins.obs-vkcapture ];
@@ -88,27 +83,23 @@ in
     yt-dlp
 
     # --- Audio Control & Effects ---
-    pavucontrol
+    easyeffects
 
     # --- Wayland Desktop Environment Utilities ---
     wl-clipboard
 
     # --- Desktop Environment Utilities ---
-    nwg-look
-    gnome-tweaks
-    dconf-editor
 
     # --- Development & Technical Tools & Editors ---
-    ptyxis
     pkgs-unstable.vscode
     pkgs-unstable.zed-editor
     jetbrains-toolbox
     yaak
+    bruno
+    postman
     gh
-    gnome-boxes
     devtoolbox
     imhex
-    postman
     nasm
     bun
     gcc
@@ -133,7 +124,7 @@ in
     unityhub
 
     # --- Reverse Engineering Tools ---
-    ghidra
+    # ghidra
 
     # --- Web Browsing ---
     brave
@@ -162,17 +153,11 @@ in
     # --- Multimedia (Video/Audio Players & Editors) ---
     vlc
     mpv
-    easyeffects
-    kooha
-    mousai
 
     # --- Communication & Email ---
     discord
 
     # --- Security & Privacy ---
-    protonvpn-gui
-    proton-pass
-    proton-authenticator
 
     # --- Gaming & Compatibility Layers ---
     wineWowPackages.stableFull
@@ -184,9 +169,8 @@ in
     prismlauncher
     protonplus
     mangohud
-    mangojuice
+    goverlay
 
     # --- Others ---
-    smile
   ];
 }

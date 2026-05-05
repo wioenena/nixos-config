@@ -26,7 +26,6 @@
       allowUnfreePredicate = pkg: builtins.elem (nixpkgs.lib.getName pkg) allowedUnfreePkgNames;
       myOverlays = import ./overlays { };
       overlays = [
-        myOverlays.gnomeExtensions
       ];
       pkgs-unstable = import inputs.nixpkgs-unstable {
         inherit system;

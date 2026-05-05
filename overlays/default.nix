@@ -1,4 +1,3 @@
 { }:
 {
-  gnomeExtensions = import ./gnomeExtensions;
 }
