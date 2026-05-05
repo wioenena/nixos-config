@@ -30,5 +30,5 @@
     radeontop
   ];
 
-  services.lact.enable = true;
+  services.lact.enable = false;
 }
