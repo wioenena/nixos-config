@@ -1,6 +1,5 @@
 [
   "vscode"
-  "apple_cursor"
   "jetbrains-toolbox"
   "davinci-resolve"
   "steam"
@@ -12,6 +11,4 @@
   "postman"
   "obsidian"
   "discord"
-  "proton-authenticator"
-  "ida-free"
 ]
